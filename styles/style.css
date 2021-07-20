@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     margin: 0px;
+    font-size: 14px;
 }
 .body-container{
     height: 100%;
@@ -23,12 +24,35 @@ a:hover{
     text-decoration: underline;
 }
 .main{
-    display: grid;
+    
     text-align: center;
+    align-self: center;
 }
 .footer-link{
-    background-color: rgba(0,0,0,.54);
+    background-color: #f8f9fa;
 }
-br{
+.searchbox{
+    display: flex;
+    padding: 5px 8px 0 16px;
+    margin: 1em auto;
+    width: 60%;
+    height: 2.5rem;
+    border: 2px solid #dcdcdc;
+    border-radius: 2em;
+ 
+}
+.search-field{
+    border: none;
+}
+.main-button{
+    background-color: #f8f9fa;
+    border: none;
+    padding: 1em 1em;
+}
 
+.left-footer{
+    display: inline;
+}
+.right-footer{
+    display: inline;
 }
